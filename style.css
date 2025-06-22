@@ -1,0 +1,73 @@
+body {
+  background-image: url(girl.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 0px;
+  text-align: center;
+}
+.container {
+  background-color: #fcfbff;
+  color: #e3b9d5;
+  margin: 100px auto;
+  max-width: fit-content;
+  padding: 40px;
+  border-radius: 70px;
+  position: relative;
+  height: auto;
+}
+
+
+h1 {
+  color: #d285d1;
+}
+
+.mood-box {
+  border: 2px #ddabcf;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: #f7b5f2;
+  width: 300px;
+  margin: 0 auto 20px;
+  color: rgb(0, 0, 0);
+}
+
+.mood-img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+select {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 16px;
+  border: #d285d1;
+  border-radius: 30px;
+  color: antiquewhite;
+  background-color: #e1a5da;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #e1a5da;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5a31a6;
+}

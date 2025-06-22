@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mood Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container" id="mood-container">
+  <h1>Mood Tracker</h1>
+  <div class="mood-box" id="moodDisplay" style="display: none;">
+    <h2 id="selectedMoodText"></h2>
+    <img id="selectedMoodImage" class="mood-img" src="" alt="Mood image">
+    </div>
+
+    <!-- Mood Selection -->
+    <div class="input-group">
+      <label for="mood" class="mood">Choose your mood:</label><br>
+        <select id="mood">
+           <option value="happy">Happy</option>
+           <option value="sad">Sad</option>
+           <option value="angry">Angry</option>
+           <option value="excited">Excited</option>
+            <option value="tired">Tired</option>
+           <option value="anxious">Anxious</option>
+        </select>
+<br>
+<br>
+        <button onclick="selectMood()">Mood for Today</button>
+     </div>
+</div>
+
+ 
+  <script src="script.js"></script>
+</body>
+</html>
